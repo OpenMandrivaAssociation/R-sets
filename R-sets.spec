@@ -9,11 +9,9 @@ Group:            Sciences/Mathematics
 License:          GPL-2
 URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
 Source0:          http://cran.r-project.org/src/contrib/%{packname}_1.0-8.tar.gz
-Requires:         R-stats 
-Requires:         R-proxy 
-BuildRequires:    R-devel Rmath-devel texlive-collection-latex 
-BuildRequires:    R-stats 
-BuildRequires:    R-proxy 
+Requires:         R-stats R-proxy
+BuildRequires:    R-devel Rmath-devel texlive-collection-latex
+BuildRequires:    R-stats R-proxy
 
 %description
 Data structures and basic operations for ordinary sets, generalizations
