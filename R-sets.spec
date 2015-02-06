@@ -3,7 +3,7 @@
 
 Name:             R-%{packname}
 Version:          1.0.13
-Release:          2
+Release:          3
 Summary:          Sets, Generalized Sets, Customizable Sets and Intervals
 Group:            Sciences/Mathematics
 License:          GPL-2
